@@ -11,10 +11,4 @@
 - name: mongodb setup
   ansible.builtin.import_role:
     name: common
-    task_from: mongodb-setup
-
-- name: mongodb setup
-  ansible.builtin.import_role:
-    name: common
     task_from: systemd
-
